@@ -1,0 +1,7 @@
+// utilisation d @use sur les utils sur chaque fichier qui en a besoin
+// @use est local, il ne peut pas acceder au @use des autres fichier
+@use "../utils/variables" as *;
+
+body{
+    color: $primary-color;
+}
