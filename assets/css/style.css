@@ -1,9 +1,14 @@
 .header__title {
-  color: #9356DC;
-}
+  font-family: Shrikhand;
+} /*
+    ordre dossier use
+    - vendors
+    - base
+    - layout
+    - components
+    - pages
+    - themes
 
-.header__title {
-  color: #9356DC;
-}
+*/
 
 /*# sourceMappingURL=style.css.map */
