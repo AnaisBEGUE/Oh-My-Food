@@ -2,6 +2,6 @@
 // @use est local, il ne peut pas acceder au @use des autres fichier
 @use "../utils/variables" as *;
 
-body{
+.header__title{
     color: $primary-color;
 }
