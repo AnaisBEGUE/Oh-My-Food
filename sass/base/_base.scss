@@ -3,8 +3,16 @@
 @use "../utils/variables" as *;
 
 body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     font-family: $principal-font;
 }
 
-
-
+h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+i{
+    margin-right: 10px;
+}
