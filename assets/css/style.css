@@ -1,6 +1,37 @@
-.header__title {
-  font-family: Shrikhand;
-} /*
+body {
+  font-family: Roboto;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+.header__logo {
+  padding: 15px;
+}
+
+.container__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #EAEAEA;
+}
+.container__form__label {
+  margin-right: 10px;
+}
+.container__form #site-search {
+  border: none;
+  background-color: #EAEAEA;
+  font-weight: 500;
+}
+.container__form ::placeholder {
+  font-size: 16px;
+  color: #353535;
+}
+
+/*
     ordre dossier use
     - vendors
     - base

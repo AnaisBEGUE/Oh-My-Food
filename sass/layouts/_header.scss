@@ -1,0 +1,11 @@
+@use "../utils/variables" as *;
+
+.header{
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15) ;
+    
+        &__logo{
+        padding: 15px;
+        }
+}

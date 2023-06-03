@@ -1,2 +1,22 @@
 @use "../utils/variables" as *;
 
+.container__form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: $location-color;
+    
+        &__label{
+            margin-right: 10px;
+        }
+        #site-search{
+            border: none;
+            background-color: $location-color;
+            font-weight: 500;
+        }
+        ::placeholder{
+            font-size: 16px;
+            color:$footer-color;
+        }
+}
