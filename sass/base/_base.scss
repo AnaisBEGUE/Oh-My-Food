@@ -3,6 +3,8 @@
 @use "../utils/variables" as *;
 
 body{
-    font-family: Roboto;
+    font-family: $principal-font;
 }
+
+
 

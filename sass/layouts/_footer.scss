@@ -1,0 +1,29 @@
+@use "../utils/variables" as *;
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: $footer-color;
+    color: white;
+    &__title{
+        justify-content: flex-start;
+        font-family: $secondary-font;
+        margin: 10px;
+        padding-left:5px;
+        font-size: 18px;
+    }
+    &__list{
+        font-family: $principal-font;
+        margin-left:10px;
+        font-size: 16px;
+        &__element{
+            padding:5px;
+            &__icons{
+                padding-right: 5px;
+            }
+        }
+    }
+
+
+}
