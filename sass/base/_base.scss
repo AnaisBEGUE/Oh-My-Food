@@ -3,15 +3,18 @@
 @use "../utils/variables" as *;
 
 body{
+    font-family: $principal-font;
+}
+main{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    font-family: $principal-font;
 }
 
-h2{
+.section__title{
     font-size: 24px;
     font-weight: 700;
+    margin: 10px;
 }
 i{
     margin-right: 10px;
