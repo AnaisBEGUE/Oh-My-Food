@@ -122,15 +122,6 @@ i {
   border-radius: 20px;
   height: 40px;
 }
-.section__function__card p {
-  position: relative;
-  left: -40%;
-  border: none;
-  padding: 5px 8px;
-  border-radius: 50%;
-  background-color: #9356DC;
-  z-index: 1;
-}
 
 /*
     ordre dossier use
