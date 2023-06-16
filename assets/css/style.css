@@ -15,8 +15,7 @@ main {
 }
 
 i {
-  margin-right: 10px;
-  width: 15px;
+  width: 20px;
 }
 
 a {
@@ -51,12 +50,12 @@ a {
 }
 .header__logo {
   padding: 15px;
+  width: 70%;
 }
 
 .footer {
   display: flex;
   flex-direction: column;
-  position: relative;
   background-color: #353535;
   color: white;
 }
@@ -68,15 +67,9 @@ a {
   font-size: 18px;
 }
 .footer__list {
-  font-family: roboto;
-  margin-left: 10px;
-  font-size: 16px;
-  color: white;
+  margin: 10px;
 }
 .footer__list__link {
-  margin: 5px;
-  font-family: roboto;
-  font-size: 16px;
   color: white;
 }
 
@@ -148,7 +141,7 @@ a {
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
   height: 70px;
-  width: 40%;
+  width: 80%;
   position: relative;
 }
 .section__function__card__number {
@@ -168,14 +161,14 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  row-gap: 20px;
+  margin: 20px;
 }
 .section__resto__card {
   background-color: white;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
-  height: 210px;
-  width: 50%;
+  width: 100%;
 }
 
 /*
