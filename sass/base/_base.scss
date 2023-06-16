@@ -16,6 +16,30 @@ main{
     font-weight: 700;
     margin: 10px;
 }
-i{
+i {
     margin-right: 10px;
+    width: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.section__resto img{
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 150px; ;
+}
+
+.card-title{
+    font-weight: 700;
+    font-size: 18px;
+    margin: 5px;
+}
+.card-subtitle{
+    font-size: 17px;
+    margin: 5px;
+    
 }

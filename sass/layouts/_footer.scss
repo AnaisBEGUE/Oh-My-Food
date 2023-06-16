@@ -17,11 +17,12 @@
         font-family: $principal-font;
         margin-left:10px;
         font-size: 16px;
-        &__element{
-            padding:5px;
-            &__icons{
-                padding-right: 5px;
-            }
+        color: white;
+        &__link{
+           margin:5px;
+            font-family: $principal-font;
+            font-size: 16px;
+            color: white;
         }
     }
 
