@@ -1,0 +1,22 @@
+@keyframes loader {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 0.9;
+    }
+    100%{
+        opacity: 1;
+        display: none;
+    }
+}
+
+@keyframes loader-element {
+    100%{
+        transform: translateY(-30px);
+    }
+}
+
