@@ -1,5 +1,9 @@
 @use "../utils/variables" as *;
 
+.loader{
+    position: absolute;
+    width:100%;
+}
 .container {
     display: flex;
     justify-content: center;
