@@ -1,4 +1,5 @@
 @use "../utils/variables" as *;
+@use "../utils/keyframes" as *;
 
 .loader-container{
     position:fixed;
@@ -20,15 +21,15 @@
         margin: 0 10px;
     }
     .element1{
-        animation: loader infinite 0.3s alternate;
+        animation: loader-element infinite 0.3s alternate;
         background: $primary-color;
     }
     .element2{
-        animation: loader infinite 0.3s 0.05s alternate;
+        animation: loader-element infinite 0.3s 0.05s alternate;
         background: $secondary-color;
     }
     .element3{
-        animation: loader infinite 0.3s  0.1s alternate;
+        animation: loader-element infinite 0.3s  0.1s alternate;
         background: $tertiary-color;
     }
 }
